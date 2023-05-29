@@ -1,7 +1,7 @@
 <!-- item_list.xml -->
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="530dp"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="16dp"
     android:elevation="4dp">
@@ -16,7 +16,14 @@
         android:textSize="18sp" />
 
     <Button
-        android:id="@+id/buttonAction"
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="450dp"
+        android:background="@drawable/baseline_done_24"
+        android:text="Button" />
+    <Button
+        android:id="@+id/buttonCheckDone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="450dp"
